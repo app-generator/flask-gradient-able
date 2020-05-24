@@ -1,5 +1,6 @@
 'use strict';
 $(document).ready(function() {
+    // [ basic maps ]
     var basic;
     basic = new GMaps({
         el: '#basic-map',
@@ -7,6 +8,7 @@ $(document).ready(function() {
         lng: 72.866472,
         scrollwheel: false
     });
+    // [ Gmaps ]
     var map;
     map = new GMaps({
         el: '#markers-map',
@@ -14,6 +16,7 @@ $(document).ready(function() {
         lng: 72.866472,
         scrollwheel: false
     });
+    // [ Add-marker map ]
     map.addMarker({
         lat: 21.2334329,
         lng: 72.866472,
@@ -22,6 +25,7 @@ $(document).ready(function() {
             content: '<p><Phoenicoded></Phoenicoded> <br/> Buy Now at <a href="">Themeforest</a></p>'
         }
     });
+    // [ Gmap-overlay ]
     var mapOverlay;
     mapOverlay = new GMaps({
         el: '#mapOverlay',
@@ -39,6 +43,7 @@ $(document).ready(function() {
         lat: 21.2334329,
         lng: 72.866472
     });
+    // [ Geocoding form ]
     $('#geocoding_form').submit(function(e) {
         e.preventDefault();
         GMaps.geocode({

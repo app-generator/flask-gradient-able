@@ -1,17 +1,18 @@
 {
-  "name": "boilerplate-code-flask-dashboard",
+  "name": "flask-dashboard-gradientable",  
+  "mastertemplate": "boilerplate-code-flask-dashboard",
   "version": "0.0.1",
-  "description": "Open-source template project - Flask Dashboard Boilerplate Code.",
+  "description": "Template project - Flask Dashboard Boilerplate Code.",
   "scripts": {
       "start"  : "flask run",
       "shell"  : "flask shell"
   },
   "repository": {
       "type": "git",
-      "url": "https://github.com/app-generator/boilerplate-code-flask-dashboard"
+      "url": "https://github.com/app-generator/flask-dashboard-gradientable"
   },
   "bugs": {
-      "url": "https://github.com/app-generator/boilerplate-code-flask-dashboard/issues",
+      "url": "https://github.com/app-generator/flask-dashboard-gradientable/issues",
       "email": "support@appseed.us"
   },
   "author": "AppSeed App Generator <support@appseed.us> (https://appseed.us)",

@@ -1,10 +1,6 @@
-# [Boierplate Code Flask Dashboard](https://appseed.us/boilerplate-code/flask-dashboard)
+# [Flask Dashboard GradientAble](https://appseed.us/admin-dashboards/flask-dashboard-gradientable)
 
-> Template [boilerplate code](https://appseed.us/boilerplate-code) used by [AppSeed](https://appseed.us) to generate simple admin dashboards coded in [Flask](https://palletsprojects.com/p/flask/)
-
-<br />
-
-## Dashboard Features
+> **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
@@ -12,20 +8,21 @@
 - Session-Based authentication (via **flask_login**)
 - Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx
-- Sample UI Kit: **Datta Able Dashboard** (Lite Version) provided by **CodedThemes**
+- Sample UI Kit: **Gradient Able Dashboard** (Lite Version) provided by **CodedThemes**
 - MIT License
 - Free support via **Github** issues tracker
 - Paid 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
 
 > Links
 
-- [Boierplate Code Flask Dashboard](https://boilerplate-code-flask-dashboard.appseed.us/login.html) - LIVE Demo 
-- [Boierplate Code Flask](https://appseed.us/boilerplate-code/flask-dashboard) - Official product page
-- [Boierplate Code Flask](https://docs.appseed.us/boilerplate-code/flask-dashboard) - Starter docs
+- [Flask Dashboard GradientAble](https://flask-dashboard-gradientable.appseed.us/) - LIVE Demo
+- [Flask Dashboard GradientAble](https://appseed.us/admin-dashboards/flask-dashboard-gradientable) - Official product page
+- More [Flask Admin Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
+- [Free Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index hosted by **AppSeed**
 
 <br />
 
-![Boierplate Code Flask Dashboard - Open-Source template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/boilerplate-code-flask-dashboard/master/media/boilerplate-code-flask-dashboard-screen.png)
+![Flask Dashboard GradientAble - Open-Source template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/flask-dashboard-gradientable/master/media/flask-dashboard-gradientable-screen.png)
 
 <br />
 
@@ -33,8 +30,8 @@
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/boilerplate-code-flask-dashboard.git
-$ cd boilerplate-code-flask-dashboard
+$ git clone https://github.com/app-generator/flask-dashboard-gradientable.git
+$ cd flask-dashboard-gradientable
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -200,8 +197,8 @@ The application can be easily executed in a docker container. The steps:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/boilerplate-code-flask-dashboard.git
-$ cd boilerplate-code-flask-dashboard
+$ git clone https://github.com/app-generator/flask-dashboard-gradientable.git
+$ cd flask-dashboard-gradientable
 ```
 
 > Start the app in Docker
@@ -266,4 +263,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Boierplate Code Flask Dashboard](https://appseed.us/boilerplate-code/flask-dashboard) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Dashboard GradientAble](https://appseed.us/admin-dashboards/flask-dashboard-gradientable) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
