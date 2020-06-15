@@ -2,14 +2,14 @@
 
 > **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
 
+- Sample UI Kit: **Gradient Able Dashboard** (Lite Version) provided by **CodedThemes**
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
 - Modular design with **Blueprints**
 - Session-Based authentication (via **flask_login**)
 - Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx
-- Sample UI Kit: **Gradient Able Dashboard** (Lite Version) provided by **CodedThemes**
-- MIT License
+- **[MIT License](https://github.com/app-generator/license-mit)**
 - Free support via **Github** issues tracker
 - Paid 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
 
