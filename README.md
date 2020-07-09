@@ -1,4 +1,4 @@
-# [Flask Dashboard GradientAble](https://appseed.us/admin-dashboards/flask-dashboard-gradientable)
+# [Flask Dashboard - GradientAble Design](https://appseed.us/admin-dashboards/flask-dashboard-gradientable)
 
 > **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
 
@@ -15,10 +15,10 @@
 
 > Links
 
-- [Flask Dashboard GradientAble](https://flask-dashboard-gradientable.appseed.us/) - LIVE Demo
-- [Flask Dashboard GradientAble](https://appseed.us/admin-dashboards/flask-dashboard-gradientable) - Official product page
-- More [Flask Admin Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
-- [Free Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index hosted by **AppSeed**
+- [Flask Dashboard - GradientAble Design](https://appseed.us/admin-dashboards/flask-dashboard-gradientable) - Product page
+- [Flask Dashboard GradientAble Demo](https://flask-dashboard-gradientable.appseed.us/) - LIVE App
+- More [Flask Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
+- More [Admin Dashboards](https://appseed.us/admin-dashboards) - index hosted by **AppSeed**
 
 <br />
 
@@ -274,4 +274,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Flask Dashboard GradientAble](https://appseed.us/admin-dashboards/flask-dashboard-gradientable) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Dashboard - GradientAble Design](https://appseed.us/admin-dashboards/flask-dashboard-gradientable) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
