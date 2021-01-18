@@ -1,0 +1,235 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Spinner {% endblock %} 
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}	
+
+	<!-- [ Main Content ] start -->
+	<div class="pcoded-main-container">
+		<div class="pcoded-content">
+			<!-- [ breadcrumb ] start -->
+			<div class="page-header">
+				<div class="page-block">
+					<div class="row align-items-center">
+						<div class="col-md-12">
+							<div class="page-header-title">
+								<h5 class="m-b-10">Spinner</h5>
+							</div>
+							<ul class="breadcrumb">
+								<li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
+								<li class="breadcrumb-item"><a href="#!">Basic Components</a></li>
+								<li class="breadcrumb-item"><a href="#!">Spinner</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- [ breadcrumb ] end -->
+			<!-- [ Main Content ] start -->
+			<div class="row">
+				<!-- [ spinner ] start -->
+				<div class="col-sm-6">
+					<div class="card">
+						<div class="card-header">
+							<h5>Border spinner</h5>
+						</div>
+						<div class="card-body">
+							<div class="spinner-border" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card">
+						<div class="card-header">
+							<h5>Border spinner [ Colors ]</h5>
+						</div>
+						<div class="card-body">
+							<div class="spinner-border text-primary" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-border text-secondary" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-border text-success" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-border text-danger" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-border text-warning" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-border text-info" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-border text-light" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-border text-dark" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card">
+						<div class="card-header">
+							<h5>Growing spinner</h5>
+						</div>
+						<div class="card-body">
+							<div class="spinner-grow" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card">
+						<div class="card-header">
+							<h5>Growing spinner [ Colors ]</h5>
+						</div>
+						<div class="card-body">
+							<div class="spinner-grow text-primary" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-secondary" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-success" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-danger" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-warning" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-info" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-light" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow text-dark" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card">
+						<div class="card-header">
+							<h5>Placement</h5>
+						</div>
+						<div class="card-body">
+							<h6>Start</h6>
+							<div class="d-flex justify-content-start">
+								<div class="spinner-border" role="status">
+									<span class="sr-only">Loading...</span>
+								</div>
+							</div>
+							<hr>
+							<h6>Center</h6>
+							<div class="d-flex justify-content-center">
+								<div class="spinner-border" role="status">
+									<span class="sr-only">Loading...</span>
+								</div>
+							</div>
+							<hr>
+							<h6>End</h6>
+							<div class="d-flex justify-content-end">
+								<div class="spinner-border" role="status">
+									<span class="sr-only">Loading...</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card">
+						<div class="card-header">
+							<h5>Size</h5>
+						</div>
+						<div class="card-body">
+							<h6>Small</h6>
+							<div class="spinner-border spinner-border-sm" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow spinner-grow-sm" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<hr>
+							<h6>Custom</h6>
+							<div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+							<div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+								<span class="sr-only">Loading...</span>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header">
+							<h5>Buttons</h5>
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class=" col-sm-6">
+									<button class="btn  btn-primary m-2" type="button" disabled>
+										<span class="spinner-border spinner-border-sm" role="status"></span>
+										<span class="sr-only">Loading...</span>
+									</button>
+									<button class="btn  btn-primary m-2" type="button" disabled>
+										<span class="spinner-border spinner-border-sm" role="status"></span>
+										Loading...
+									</button>
+								</div>
+								<div class="col-sm-6">
+									<button class="btn  btn-primary m-2" type="button" disabled>
+										<span class="spinner-grow spinner-grow-sm" role="status"></span>
+										<span class="sr-only">Loading...</span>
+									</button>
+									<button class="btn  btn-primary m-2" type="button" disabled>
+										<span class="spinner-grow spinner-grow-sm" role="status"></span>
+										Loading...
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="card">
+						<div class="card-header">
+							<h5>Event Buttons</h5>
+						</div>
+						<div class="card-body">
+							<button class="btn btn-primary event-btn m-2" type="button">
+								<span class="spinner-border spinner-border-sm" role="status"></span>
+								<span class="load-text">Loading...</span>
+								<span class="btn-text">Submit</span>
+							</button>
+							<button class="btn btn-primary event-btn m-2" type="button">
+								<span class="spinner-grow spinner-grow-sm" role="status"></span>
+								<span class="load-text">Loading...</span>
+								<span class="btn-text">Submit</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<!-- [ spinner ] end -->
+			</div>
+			<!-- [ Main Content ] end -->
+		</div>
+	</div>
+	<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

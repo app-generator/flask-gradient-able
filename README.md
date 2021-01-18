@@ -20,7 +20,7 @@ Gradient Able Bootstrap 4 Free/Lite Admin Template is a complete solution for yo
 > Links
 
 - [Flask Gradient Able](https://appseed.us/admin-dashboards/flask-dashboard-gradientable) - Product page
-- [Flask Gradient Able Demo](https://flask-dashboard-gradientable.appseed.us/) - LIVE App
+- [Flask Gradient Able Demo](https://flask-gradient-able.appseed-srv1.com/) - LIVE App
 - [Flask Tutorial](https://github.com/app-generator/tutorial-flask) - Getting started with Flask
 
 <br />
