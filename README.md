@@ -44,8 +44,8 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/flask-dashboard-gradientable.git
-$ cd flask-dashboard-gradientable
+$ git clone https://github.com/app-generator/flask-gradient-able.git
+$ cd flask-gradient-able
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -211,8 +211,8 @@ The application can be easily executed in a docker container. The steps:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/flask-dashboard-gradientable.git
-$ cd flask-dashboard-gradientable
+$ git clone https://github.com/app-generator/flask-gradient-able.git
+$ cd flask-gradient-able
 ```
 
 > Start the app in Docker
