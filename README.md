@@ -19,7 +19,7 @@
 
 > Links
 
-- [Gradient Able Flask](https://appseed.us/admin-dashboards/flask-dashboard-gradientable) - Product page
+- [Gradient Able Flask](https://appseed.us/admin-dashboards/flask-gradient-able) - Product page
 - [Gradient Able Flask - Demo](https://flask-gradient-able.appseed-srv1.com/) - LIVE App
 - [Flask Tutorial](https://github.com/app-generator/tutorial-flask) - Getting started with Flask
 
