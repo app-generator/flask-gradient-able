@@ -24,15 +24,25 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask)** gen
 
 <br />
 
-## Want more? Go PRO!
+## Quick Start in [Docker](https://www.docker.com/)
 
-PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
+> Get the code
 
-| [Flask Datta PRO](https://appseed.us/admin-dashboards/flask-dashboard-dattaable-pro) | [Flask Soft PRO](https://appseed.us/product/flask-soft-ui-dashboard-pro) | [Flask Volt PRO](https://appseed.us/admin-dashboards/flask-dashboard-volt-pro) |
-| --- | --- | --- |
-| [![Flask Datta PRO](https://raw.githubusercontent.com/app-generator/flask-dashboard-dattaable-pro/master/media/flask-dashboard-dattaable-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-dattaable-pro) | [![Flask Soft PRO](https://user-images.githubusercontent.com/51070104/131249807-f256efc6-2256-4bb1-9367-cc50ddd7ce18.png)](https://appseed.us/product/flask-soft-ui-dashboard-pro) | [![Flask Volt PRO](https://raw.githubusercontent.com/app-generator/flask-dashboard-volt-pro/master/media/flask-dashboard-volt-pro-screen.png)](https://appseed.us/admin-dashboards/flask-dashboard-volt-pro)
+```bash
+$ git clone https://github.com/app-generator/flask-gradient-able.git
+$ cd flask-gradient-able
+```
 
-<br />
+> Start the app in Docker
+
+```bash
+$ docker-compose pull   # download dependencies 
+$ docker-compose build  # local set up
+$ docker-compose up -d  # start the app 
+```
+
+Visit `http://localhost:85` in your browser. The app should be up & running.
+
 <br />
 
 ![Flask Dashboard GradientAble - Open-Source template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/flask-dashboard-gradientable/master/media/flask-dashboard-gradientable-screen.png)
