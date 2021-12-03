@@ -45,7 +45,7 @@ Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
-![Flask Dashboard GradientAble - Open-Source template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/flask-dashboard-gradientable/master/media/flask-dashboard-gradientable-screen.png)
+![Flask Gradient Able - Open-Source template project provided by AppSeed](https://user-images.githubusercontent.com/51070104/144614210-0f828062-16b0-46a5-8896-0a4712c0f708.gif)
 
 <br />
 
@@ -168,30 +168,6 @@ The project is coded using blueprints, app factory pattern, dual configuration p
 ## Deployment
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
-
-<br />
-
-### [Docker](https://www.docker.com/) execution
----
-
-The application can be easily executed in a docker container. The steps:
-
-> Get the code
-
-```bash
-$ git clone https://github.com/app-generator/flask-gradient-able.git
-$ cd flask-gradient-able
-```
-
-> Start the app in Docker
-
-```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
-```
-
-Visit `http://localhost:5005` in your browser. The app should be up & running.
-
-<br />
 
 ### [Gunicorn](https://gunicorn.org/)
 ---
