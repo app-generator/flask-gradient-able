@@ -19,8 +19,8 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask)** gen
 > Links
 
 - [Gradient Able Flask](https://appseed.us/admin-dashboards/flask-gradient-able) - Product page
-- [Gradient Able Flask](https://flask-gradient-able.appseed-srv1.com/) - LIVE deployment
-- [Gradient Able Flask](https://docs.appseed.us/products/flask-dashboards/gradient-able) - product documentation 
+- [Gradient Able Flask](https://flask-gradient-able.appseed-srv1.com/) - LIVE Demo
+- [Gradient Able Flask](https://docs.appseed.us/products/flask-dashboards/gradient-able) - Documentation 
 
 <br />
 
