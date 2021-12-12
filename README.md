@@ -6,12 +6,12 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask)** gen
 
 > Features
 
-- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
+- `Up-to-date dependencies`: **Flask 2.0.1**
 - DBMS: SQLite, PostgreSQL (production) 
-- DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
+- `DB Tools`: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 - Modular design with **Blueprints**, simple codebase
 - Session-Based authentication (via **flask_login**), Forms validation
-- Deployment scripts: Docker, Gunicorn / Nginx, Heroku
+- `Deployment`: **Docker**, Gunicorn / Nginx, Heroku
 - Support via **Github** and [Discord](https://discord.gg/fZC6hup).
 
 <br />
@@ -36,9 +36,7 @@ $ cd flask-gradient-able
 > Start the app in Docker
 
 ```bash
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up -d  # start the app 
+$ docker-compose up --build 
 ```
 
 Visit `http://localhost:85` in your browser. The app should be up & running.
