@@ -1,0 +1,187 @@
+/**  =====================
+      Authentication css start
+==========================  **/
+.auth-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, $primary-color, lighten($primary-color,13%));
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px;
+        }
+    }
+    @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        display: block;
+        margin: 0 auto;
+
+        > .row {
+            min-height: 100vh;
+
+            > .aut-bg-img {
+                min-height: 100vh;
+            }
+        }
+    }
+
+    .saprator {
+        position: relative;
+        margin: 8px 0;
+
+        span {
+            background: #fff;
+            position: relative;
+            padding: 0 10px;
+            z-index: 5;
+            font-size: 20px;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 15px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: $theme-border;
+            z-index: 1;
+        }
+    }
+
+    a,
+    p > a {
+        color: $theme-heading-color;
+        font-weight: 600;
+    }
+
+    .input-group {
+        background: transparent;
+    }
+
+    .card {
+        margin-bottom: 0;
+        padding: 8px;
+        box-shadow: 0 2px 18px -2px rgba(0, 0, 0, 0.5);
+
+        .card-body {
+            padding: 20px 25px 20px 40px;
+        }
+        @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            display: block;
+        }
+    }
+
+    > div {
+        z-index: 5;
+    }
+
+    .auth-content {
+        position: relative;
+        padding: 15px;
+        z-index: 5;
+
+        &:not(.container) {
+            width: 400px;
+
+            .card-body {
+                padding: 40px 35px;
+            }
+        }
+        @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            margin: 0 auto;
+        }
+    }
+
+    .auth-side-img {
+        padding-right: 400px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        @media only screen and (max-width: 991px) {
+            display: none;
+        }
+    }
+
+    .auth-side-form {
+        position: relative;
+        min-height: 100%;
+        background: #fff;
+        display: inline-flex;
+        align-items: center;
+        left: auto;
+        float: right;
+        box-shadow: -2px 0 7px -2px rgba(0, 0, 0, 0.5);
+
+        > * {
+            position: relative;
+            z-index: 5;
+        }
+        @media only screen and (max-width: 991px) {
+            width: 100%;
+            justify-content: center;
+
+            .auth-content:not(.container) {
+                max-width: 350px;
+            }
+        }
+    }
+
+    &.aut-bg-img {
+        .auth-side-form {
+            @media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+                height: 100vh;
+            }
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .card {
+            .card-body {
+                padding: 30px 15px;
+            }
+        }
+    }
+
+    &.offline {
+        background-image: none;
+
+        h1 {
+            font-size: 87px;
+            font-weight: 700;
+        }
+
+        &:before {
+            display: none;
+        }
+    }
+
+    .card-body .carousel-indicators {
+        margin: 15px 0 10px;
+        bottom: 0;
+
+        li {
+            width: 50px;
+            background-color: transparentize($primary-color, 0.6);
+            border-radius: 5px;
+            height: 4px;
+
+            &.active {
+                background-color: $primary-color;
+            }
+        }
+    }
+
+    .img-logo-overlay {
+        position: absolute;
+        top: 40px;
+        left: 50px;
+    }
+}
+/* image varient start */
+/* image varient End */
+/**====== Authentication css end ======**/

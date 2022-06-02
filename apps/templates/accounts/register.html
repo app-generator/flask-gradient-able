@@ -1,0 +1,76 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Sign UP {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+	<!-- [ auth-signup ] start -->
+	<div class="auth-wrapper">
+		<div class="auth-content">
+			<div class="card">
+				<div class="row align-items-center text-center">
+					<div class="col-md-12">
+						<div class="card-body">
+							<img src="/static/assets/images/logo-dark.png" alt="" class="img-fluid mb-4">
+
+							<h4 class="mb-3 f-w-400">Sign UP</h4>
+
+							<span class="mb-0 text-muted">
+								{% if msg %}
+									<span class="text-danger">
+										{{ msg | safe }}
+									</span>
+								{% else %}
+									Add your credentials
+								{% endif %} 
+							</span>
+							
+							<br /><br />
+
+							{% if success %}
+								<p class="mb-2">
+									<a class="btn btn-primary btn-block mt-2 mb-4" href="{{ url_for('authentication_blueprint.login') }}" class="f-w-400">Sign IN</a>
+								</p>
+							{% else %}
+
+								<form role="form" method="post" action="">
+
+									{{ form.hidden_tag() }}
+
+									<div class="input-group mb-3">
+										<span class="input-group-text"><i class="feather icon-user"></i></span>
+										{{ form.username(placeholder="Username", class="form-control") }}
+									</div>
+									<div class="input-group mb-3">
+										<span class="input-group-text"><i class="feather icon-mail"></i></span>
+										{{ form.email(placeholder="Email", class="input form-control", type="email") }}
+									</div>
+									<div class="input-group mb-4">
+										<span class="input-group-text"><i class="feather icon-lock"></i></span>
+										{{ form.password(placeholder="Password", class="form-control", type="password") }}
+									</div>
+
+									<button type="submit" name="register" class="btn btn-primary btn-block mt-2 mb-4">Sign UP</button>
+									<p class="mb-2">
+										Already have an account? <a href="{{ url_for('authentication_blueprint.login') }}" class="f-w-400">Sign IN</a>
+									</p>
+								
+								</form>
+
+							{% endif %}	
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- [ auth-signup ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

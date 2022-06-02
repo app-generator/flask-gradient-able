@@ -1,0 +1,28 @@
+/**  =====================
+      Badges css start
+==========================  **/
+
+.badge {
+    font-size: 80%;
+    padding: 0.35em 0.6em;
+    font-weight: 600;
+}
+@each $color, $value in $theme-colors {
+    .badge-light-#{$color} {
+        background: transparentize($value,.8);
+        border-color: theme-color-level($color, $alert-border-level);
+        color: $value;
+    }
+
+    a.badge-light-#{$color} {
+        &.active,
+        &:active,
+        &:focus,
+        &:hover {
+            background: $value;
+            border-color: $value;
+            color: theme-color-level($color, $alert-bg-level);
+        }
+    }
+}
+/**====== Badges css end ======**/

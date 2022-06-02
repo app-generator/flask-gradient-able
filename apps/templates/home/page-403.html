@@ -1,0 +1,34 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Error 403 {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- [ offline-ui ] start -->
+    <div class="auth-wrapper maintance">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="text-center">
+                        <!--  -->
+                        <div class="">
+                            <img src="/static/assets/images/maintenance/error.png" alt="" class="img-fluid">
+                        </div>
+                        <h5 class="mt-4">Access Denied - Please contact support.</h5>
+                        <a href="/" class="btn btn-warning mb-4">
+                            <i class="feather icon-info me-2"></i>HOME
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- [ offline-ui ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

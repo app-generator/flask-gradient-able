@@ -1,0 +1,58 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %} 
+
+	<!-- [ auth-signin ] start -->
+	<div class="auth-wrapper">
+		<div class="auth-content">
+			<div class="card">
+				<div class="row align-items-center text-center">
+					<div class="col-md-12">
+						<div class="card-body">
+							<img src="/static/assets/images/logo-dark.png" alt="" class="img-fluid mb-4">
+
+							<h4 class="mb-3 f-w-400">Sign IN</h4>
+							<span class="mb-2 text-muted">
+								{% if msg %}
+									<span class="text-danger">
+										{{ msg | safe }}
+									</span>
+								{% else %}
+									Add your credentials
+								{% endif %} 
+							</span>
+
+							<br /><br />
+
+							<form role="form" method="post" action="">
+
+								{{ form.hidden_tag() }} 
+
+								<div class="input-group mb-3">
+									<span class="input-group-text"><i class="feather icon-user"></i></span>
+									{{ form.username(placeholder="Username", class="form-control") }}
+								</div>
+								<div class="input-group mb-4">
+									<span class="input-group-text"><i class="feather icon-lock"></i></span>
+									{{ form.password(placeholder="Password", class="form-control", type="password") }}
+								</div>
+
+								<button type="submit" name="login" class="btn btn-block btn-primary mt-2 mb-4">Sign In</button>
+							
+							</form>
+
+							<p class="mb-2">Don't have an account? <a href="{{ url_for('authentication_blueprint.register') }}" class="f-w-400">Sign UP</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- [ auth-signin ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %} 

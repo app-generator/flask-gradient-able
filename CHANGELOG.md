@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.6] 2022-06-02
+### Improvements
+
+- Bump UI: [Gradient BS5](https://github.com/codedthemes/gradient-able-free-bootstrap-admin-template)
+  - `v1.0.0`
+- Bump Codebase (used in app generator)
+
 ## [1.0.5] 2022-01-16
 ### Improvements
 

@@ -1,0 +1,174 @@
+/**  =====================
+      Custom css start
+==========================  **/
+/* ==========  card css start  =========== */
+.anim-rotate {
+    animation: anim-rotate 1s linear infinite;
+}
+@keyframes anim-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.anim-close-card {
+    animation: anim-close-card 1.4s linear;
+}
+@keyframes anim-close-card {
+    100% {
+        opacity: 0.3;
+        transform: scale3d(.3, .3, .3);
+    }
+}
+
+.card {
+    box-shadow: $card-shadow;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0 0 25px -5px #9e9c9e;
+    }
+
+    .card-header {
+        border-bottom: $card-header-border;
+        position: relative;
+
+        +.card-body {
+            padding-top: 0;
+        }
+
+        h5 {
+            margin-bottom: 0;
+            color: $theme-heading-color;
+            font-size: 14px;
+            font-weight: 700;
+            display: inline-block;
+            margin-right: 10px;
+            line-height: 1.1;
+            position: relative;
+        }
+
+        .card-header-right {
+            right: 10px;
+            top: 10px;
+            display: inline-block;
+            float: right;
+            padding: 0;
+            position: absolute;
+            @media only screen and (max-width: 575px) {
+                display: none;
+            }
+
+            .dropdown-menu {
+                margin-top: 0;
+
+                li {
+                    cursor: pointer;
+
+                    a {
+                        font-size: 14px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .btn.dropdown-toggle {
+                border: none;
+                background: transparent;
+                box-shadow: none;
+                color: #888;
+
+                i {
+                    margin-right: 0;
+                }
+
+                &:after {
+                    display: none;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                    outline: none;
+                }
+            }
+            // custom toggler
+            .btn.dropdown-toggle {
+                border: none;
+                background: transparent;
+                box-shadow: none;
+                padding: 0;
+                width: 20px;
+                height: 20px;
+                right: 8px;
+                top: 8px;
+
+                &.mobile-menu span {
+                    background-color: #888;
+                    height: 2px;
+                    border-radius: 5px;
+
+                    &:after,
+                    &:before {
+                        border-radius: 5px;
+                        height: 2px;
+                        background-color: #888;
+                    }
+                }
+            }
+
+            .nav-pills {
+                padding: 0;
+                box-shadow: none;
+                background: transparent;
+            }
+        }
+    }
+
+    .card-footer {
+        border-top: 1px solid $theme-border;
+        padding: 12px 25px;
+
+        &:not([class*="bg-"]) {
+            background: transparent;
+        }
+        &[class*="bg-"]{
+            border-top: none;
+        }
+    }
+
+    .card-block,
+    .card-body {
+        padding: 20px 25px;
+    }
+
+    &.card-load {
+        position: relative;
+        overflow: hidden;
+
+        .card-loader {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            background-color: rgba(256, 256, 256,0.7);
+            z-index: 999;
+
+            i {
+                margin: 0 auto;
+                color: $primary-color;
+                font-size: 24px;
+                align-items: center;
+                display: flex;
+            }
+        }
+    }
+
+    &.full-card {
+        z-index: 99999;
+        border-radius: 0;
+    }
+}

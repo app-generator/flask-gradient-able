@@ -1,0 +1,53 @@
+/**======================================================================
+=========================================================================
+Template Name: Gradient able Bootstrap Admin Template
+Author: Phoenixcoded
+Support: support@phoenixcoded.net
+File: style.css
+=========================================================================
+=================================================================================== */
+
+
+
+// theme font
+@import "themes/font/theme-font";
+
+// theme scrollbar
+@import "themes/plugins/perfect-scrollbar";
+
+// main framework
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "settings/custom-variables";
+@import "settings/theme-variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// icon
+@import "themes/font/datta-icon";
+@import "themes/font/feather";
+@import "themes/font/fontawesome";
+
+// bootstrap css
+@import "themes/bootstrap-overlay/card";
+@import "themes/bootstrap-overlay/button";
+@import "themes/bootstrap-overlay/radiobox-checkbox";
+@import "themes/bootstrap-overlay/switches";
+@import "themes/bootstrap-overlay/badge";
+
+// utility css & animate css
+@import "themes/general";
+@import "themes/generic";
+@import "plugins/animate.min.css";
+
+// theme layouts
+@import "themes/layouts/menu-lite";
+
+// dashboard widgets
+@import "themes/dashboard/widget";
+
+// custom pluginss
+@import "themes/plugins/data-tables";
+
+// pages
+@import "themes/pages/authentication";
+@import "themes/pages/icon-lauouts";
