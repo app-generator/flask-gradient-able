@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.7] 2022-06-09
+### Improvements
+
+- Built with [Gradient Able Generator](https://appseed.us/generator/gradient-able/)
+  - Timestamp: `2022-06-09 09:13`
+
 ## [1.0.6] 2022-06-02
 ### Improvements
 

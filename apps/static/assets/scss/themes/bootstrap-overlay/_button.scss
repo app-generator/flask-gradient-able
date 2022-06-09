@@ -1,0 +1,16 @@
+/**  =====================
+      button css start
+==========================  **/
+.btn-page{
+    .btn{
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    .btn-group-vertical,
+    .btn-group{
+        .btn{
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    }
+}

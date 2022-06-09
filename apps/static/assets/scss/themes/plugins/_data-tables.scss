@@ -1,0 +1,305 @@
+/**  =====================
+      Data Tables css start
+==========================  **/
+.table {
+    td,
+    th {
+        border-top: 1px solid $theme-border;
+        white-space: nowrap;
+        padding: 1.05rem 0.75rem;
+    }
+
+    thead th {
+        border-bottom: 1px solid $theme-border;
+        font-size: 13px;
+        color: $theme-heading-color;
+        background: $theme-background;
+        text-transform: uppercase;
+    }
+
+    tbody + tbody {
+        border-top: 2px solid $theme-border;
+    }
+
+    &.table-dark {
+        thead th {
+            background-color: #11171a;
+        }
+    }
+
+    &.dataTable[class*="table-"] {
+        thead th {
+            background: $theme-background;
+        }
+    }
+}
+/* Border versions */
+
+.table-bordered {
+    border: 1px solid $theme-border;
+
+    td,
+    th {
+        border: 1px solid $theme-border;
+    }
+}
+/* Zebra-striping */
+
+.table-striped {
+    tbody tr:nth-of-type(2n+1) {
+        background-color: transparentize($primary-color,0.97);
+    }
+}
+/* Hover effect */
+
+.table-hover {
+    tbody tr {
+        &:hover {
+            background-color: transparentize($primary-color,0.97);
+        }
+    }
+}
+/* Table backgrounds */
+
+.table {
+    .thead-dark {
+        th {
+            color: #fff;
+            background-color: $dark-color;
+            border-color: darken($dark-color,10%);
+        }
+    }
+}
+
+.table-dark {
+    color: #fff;
+    background-color: $dark-color;
+
+    td,
+    th,
+    thead th {
+        border-color: darken($dark-color,10%);
+    }
+
+    &.table-striped {
+        tbody tr:nth-of-type(odd) {
+            background-color: darken($dark-color,2%);
+        }
+    }
+
+    &.table-hover {
+        tbody tr {
+            &:hover {
+                background-color: darken($dark-color,5%);
+            }
+        }
+    }
+
+    thead th {
+        // background-color: $dark-color;
+        color: #fff;
+    }
+}
+/* fixed header position */
+
+table.dataTable.fixedHeader-floating {
+    top: 0 !important;
+    @media screen and (max-width:992px) {
+        display: none !important;
+    }
+}
+@media screen and (max-width:992px) {
+    .fixedHeader-locked {
+        display: none !important;
+    }
+}
+/**  =====================
+      Foo-table css start
+==========================  **/
+
+.footable .pagination > {
+    .active > {
+        a,
+        span {
+            background-color: $primary-color;
+            border-color: $primary-color;
+
+            &:focus,
+            &:hover {
+                background-color: $primary-color;
+                border-color: $primary-color;
+            }
+        }
+    }
+
+    li > {
+        a,
+        span {
+            color: #222;
+        }
+    }
+}
+
+.footable-details.table,
+.footable.table {
+    margin-bottom: 0;
+}
+
+table {
+    &.footable > tfoot > tr.footable-paging > td > span.label {
+        margin-bottom: 0;
+    }
+
+    &.footable-paging-center > tfoot > tr.footable-paging > td {
+        padding-bottom: 0;
+    }
+}
+
+.table-columned > {
+    tbody > {
+        tr > {
+            td {
+                border: 0;
+                border-left: 1px solid $theme-border;
+            }
+
+            th {
+                border: 0;
+            }
+        }
+    }
+}
+/**====== Foo-table css end ======**/
+/**======= basic table css start =======**/
+.table.table-xl {
+    td,
+    th {
+        padding: 1.25rem 2rem;
+    }
+}
+
+.table.table-lg {
+    td,
+    th {
+        padding: 0.9rem 2rem;
+    }
+}
+
+.table.table-de {
+    td,
+    th {
+        padding: 0.75rem 2rem;
+    }
+}
+
+.table.table-sm {
+    td,
+    th {
+        padding: 0.6rem 2rem;
+    }
+}
+
+.table.table-xs {
+    td,
+    th {
+        padding: 0.4rem 2rem;
+    }
+}
+/**======= basic table css end ======**/
+
+#row-delete,
+#row-select {
+    .selected {
+        background-color: $primary-color;
+        color: #fff;
+    }
+}
+
+table {
+    &.dataTable {
+        tbody {
+            > tr {
+                &.selected,
+                > .selected {
+                    background: $primary-color;
+
+                    table.dataTable tbody > tr > .selected td,
+                    table.dataTable tbody > tr.selected,
+                    th {
+                        &.select-checkbox {
+                            &:after {
+                                text-shadow: 1px 1px #e4f2fe, -1px -1px #e4f2fe, 1px -1px #e4f2fe, -1px 1px #e4f2fe;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+table.dataTable tbody .selected td.select-checkbox:before,
+table.dataTable tbody .selected th.select-checkbox:before {
+    border-color: #fff;
+}
+
+table.dataTable tbody > tr > .selected td.select-checkbox:after,
+table.dataTable tbody > tr > .selected th.select-checkbox:after,
+table.dataTable tbody > tr.selected td.select-checkbox:after,
+table.dataTable tbody > tr.selected th.select-checkbox:after {
+    content: '\2714';
+    margin-top: -11px;
+    margin-left: -4px;
+    text-align: center;
+}
+
+div.dt-button-info {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    margin-top: -100px;
+    margin-left: -200px;
+    background-color: lighten($primary-color,30%);
+    color: $primary-color;
+    border: 2px solid $primary-color;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    text-align: center;
+    z-index: 21;
+
+    h2 {
+        padding: 0.5em;
+        margin: 0;
+        font-weight: normal;
+        color: #fff;
+        border-bottom: 1px solid $primary-color;
+        background-color: $primary-color;
+    }
+
+    > div {
+        padding: 1em;
+    }
+}
+.dt-buttons{
+    margin-bottom: 5px;
+}
+table.dataTable tbody {
+    td.focus,
+    th.focus {
+        box-shadow: inset 0 0 1px 2px $primary-color;
+    }
+}
+
+div.dtk-focus-alt table.dataTable tbody {
+    td.focus,
+    th.focus {
+        box-shadow: inset 0 0 1px 2px $warning-color;
+        background: transparentize($warning-color,0.85);
+        color: $warning-color;
+    }
+}
+.table > :not(:first-child) {
+    border-top: none;
+}
+/**====== Data Tables css end ======**/
