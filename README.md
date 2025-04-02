@@ -4,7 +4,7 @@ Open-source **Flask** project crafted on top of **Gradient Able Dashboard**, an 
 The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
 
 - 👉 [Flask Gradient Able](https://app-generator.dev/product/gradient-able/flask/) - `Product Page`
-- 👉 [Flask Gradient Able](flask-gradient-able.appseed-srv1.com) - `LIVE Demo` 
+- 👉 [Flask Gradient Able](https://flask-gradient-able.appseed-srv1.com) - `LIVE Demo` 
 - 👉 [Flask Gradient Able Documentation](https://app-generator.dev/docs/products/flask/gradient-able/index.html) - `Complete Information` and Support Links
   - [Getting Started with Flask](https://app-generator.dev/docs/technologies/flask/index.html) - a `comprehensive tutorial`
   - `Configuration`: Install Tailwind/Flowbite, Prepare Environment, Setting up the Database 
