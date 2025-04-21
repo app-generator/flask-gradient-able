@@ -11,7 +11,29 @@
 				<div class="row align-items-center text-center">
 					<div class="col-md-12">
 						<div class="card-body">
-							<img src="/static/assets/images/logo-dark.png" alt="" class="img-fluid mb-4">
+							<img src="/static/assets/images/logo-dark.png" alt="" class="img-fluid mb-3">
+
+							<div class="d-flex justify-content-center align-items-center gap-2 mb-3">
+								{% if has_github %}
+								<div class="text-center">
+								  <a href="{{ url_for('github.login') }}" style="cursor: pointer;" class="d-inline-block p-2 rounded border text-secondary">
+									<span class="pcoded-micon">
+										<i class="fab fa-github"></i>
+									</span>
+								  </a>
+								</div>
+								{% endif %}
+				  
+								{% if has_google %}
+								<div class="text-center">
+								  <a href="{{ url_for('google.login') }}" style="cursor: pointer;" class="d-inline-block p-2 rounded border text-secondary">
+									<span class="pcoded-micon">
+									  <i class="fab fa-google"></i>
+									</span>
+								  </a>
+								</div>
+								{% endif %}
+							</div>
 
 							<h4 class="mb-3 f-w-400">Sign IN</h4>
 							<span class="mb-2 text-muted">
